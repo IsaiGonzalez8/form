@@ -1,0 +1,65 @@
+.container{
+    background-color: rgba(171, 171, 171, 0.83);
+    width: 480px;
+    height: 320px;
+    position: absolute;
+    top: 21%;
+    left: 56%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+.nombreU{
+    width: 87%;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0px 0px 0px 10px;
+}
+.contras{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 22px 0px 22px;
+}
+.contra{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0px 0px 0px 10px;
+}
+.condiciones{
+    display:flex;
+    justify-content: flex-start;
+    padding: 20px 0px 0px 32px;
+}
+.terminos{
+    width: 15px;
+    height: 15px;
+}
+input{
+    width: 200px;
+    height: 45px;
+}
+.btnRegistrar{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+}
+.btnEnviar:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.btnEnviar{
+    border-radius: 10px;
+    border: 1px solid rgb(52, 107, 211);
+    background-color: rgb(52, 107, 211);
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    padding: 0px 0px 0px 2px;
+}
+
